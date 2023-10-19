@@ -19,6 +19,7 @@ import {
   Code,
   Cpu,
   DiscordLogo,
+  GameController,
   House,
   Info,
   List,
@@ -86,6 +87,9 @@ const NavMenu = (): JSX.Element => {
               </NavButton>
               <NavButton leftIcon={<CircleWavyCheck />} href="/leaderboard">
                 Guild Pins leaderboard
+              </NavButton>
+              <NavButton leftIcon={<GameController />} href="/guess-the-guild">
+                Guess The Guild Game
               </NavButton>
             </NavGroup>
             <NavGroup title="Other">
